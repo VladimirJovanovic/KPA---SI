@@ -22,10 +22,7 @@
     
     for(Drzava dr : ListaPodataka.listaDrzava){
         lstIdDrzava.add(Integer.toString(dr.getId()));
-    }//na istim pozicijama se nalaze id drzava
-    //u okviru select elementa value koji ce se preuzimati je id drzave a prikazan tekst za svaki
-    //value je naziv drzave koji korisnik odabira
-    
+    }
     int idPrijavlejnog = 0;
     
     for(Korisnik k : ListaPodataka.listaKorisnika){
